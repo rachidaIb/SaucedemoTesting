@@ -1,0 +1,2154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19584163300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4361188200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258096400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306454500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93435800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274644000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58523100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487867500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91760800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:28:38.190Z",
+        "line": 16,
+        "name": "The user should be able to ckeckout",
+        "description": "",
+        "id": "in-order-to-add-to-cart;the-user-should-be-able-to-ckeckout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78127300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user can navigate to check out button",
+            "match": {
+              "location": "stepDefs.cartstp.userCanNavigateToCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330290100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User able to click checkout button",
+            "match": {
+              "location": "stepDefs.cartstp.userAbleToClickCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38007700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User land to checkout-step-one page",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userLandToCheckoutStepOnePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17490345800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2820535800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Cart.feature:7)\r\n",
+              "duration": 545619500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2004300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:29:04.592Z",
+        "line": 23,
+        "name": "Continue Shopping",
+        "description": "",
+        "id": "in-order-to-add-to-cart;continue-shopping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "verify that user can Continue Shopping",
+            "match": {
+              "location": "stepDefs.cartstp.verifyThatUserCanAddMoreItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19337371000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2123975100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Cart.feature:7)\r\n",
+              "duration": 22200800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:29:26.053Z",
+        "line": 27,
+        "name": "navigate to cart",
+        "description": "",
+        "id": "in-order-to-add-to-cart;navigate-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User can remove item in cart",
+            "match": {
+              "location": "stepDefs.cartstp.userCanRemoveItemInCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user navigate back to cart page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "in order to add to cart",
+    "description": "",
+    "id": "in-order-to-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Cart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-21T02:29:47.588Z",
+        "line": 2,
+        "name": "The user should be able to login",
+        "description": "",
+        "id": "test-login-functionalty;the-user-should-be-able-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30036913000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2867042900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Login.feature:5)\r\n",
+              "duration": 26001200,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user can add two item to cart",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:30:20.570Z",
+        "line": 15,
+        "name": "Test all accepted users",
+        "description": "",
+        "id": "test-login-functionalty;test-all-accepted-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14850388500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3674346300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 20008600,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:30:39.154Z",
+        "line": 16,
+        "name": "Test all accepted users",
+        "description": "",
+        "id": "test-login-functionalty;test-all-accepted-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31650449700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1159284400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Logs with \"problem_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 21005700,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:31:12.016Z",
+        "line": 17,
+        "name": "Test all accepted users",
+        "description": "",
+        "id": "test-login-functionalty;test-all-accepted-users;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40982205500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12537278500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Logs with \"performance_glitch_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 26999800,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:32:05.614Z",
+        "line": 20,
+        "name": "The user should not able to login",
+        "description": "",
+        "id": "test-login-functionalty;the-user-should-not-able-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28421353900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 967688200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Logs with \"locked_out_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93397400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should see the error button",
+            "match": {
+              "location": "stepDefs.LoginStep.userShouldSeeTheErrorButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionalty",
+    "description": "",
+    "id": "test-login-functionalty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-21T02:32:35.132Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "in-order-to-checkout-step2;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26180757800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4754541900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/chechout2.feature:6)\r\n",
+              "duration": 76498000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user can navigate to check out button",
+            "match": {
+              "location": "stepDefs.cartstp.userCanNavigateToCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User able to click checkout button",
+            "match": {
+              "location": "stepDefs.cartstp.userAbleToClickCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User land to checkout-step-one page",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userLandToCheckoutStepOnePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User insert  his first name \"Rachida\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rachida\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertHisFirstName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User insert  his last name \"ibeghou\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ibeghou\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertHisLastName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user insert pstal code \"19145\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"19145\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertPstalCode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user navigate to continue button",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userNavigateToContinueButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User land to checkout-step-two page",
+            "match": {
+              "location": "stepDefs.checkoutStep2.userLandToCheckoutStepTwoPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user navigate to finish button",
+            "match": {
+              "location": "stepDefs.checkoutStep2.userNavigateToFinishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "verify that checkout completed",
+            "match": {
+              "location": "stepDefs.checkoutStep2.verifyThatCheckoutCompleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "in order to checkout step2",
+    "description": "",
+    "id": "in-order-to-checkout-step2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/chechout2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41008712600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2602828400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/checkoutStep1.feature:6)\r\n",
+              "duration": 18000200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user can navigate to check out button",
+            "match": {
+              "location": "stepDefs.cartstp.userCanNavigateToCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User able to click checkout button",
+            "match": {
+              "location": "stepDefs.cartstp.userAbleToClickCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User land to checkout-step-one page",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userLandToCheckoutStepOnePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:33:06.181Z",
+        "line": 17,
+        "name": "The user should be able to ckeckout with valid informations",
+        "description": "",
+        "id": "checkout;the-user-should-be-able-to-ckeckout-with-valid-informations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User insert  his first name \"Rachida\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rachida\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertHisFirstName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User insert  his last name \"ibeghou\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ibeghou\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertHisLastName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user insert pstal code \"19145\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"19145\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefs.checkout1Stp.userInsertPstalCode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user navigate to continue button",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userNavigateToContinueButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User land to checkout-step-two page",
+            "match": {
+              "location": "stepDefs.checkoutStep2.userLandToCheckoutStepTwoPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 151251638800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4852001300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/checkoutStep1.feature:6)\r\n",
+              "duration": 323115300,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user can navigate to \"Sauce Labs Backpack\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user can navigate to check out button",
+            "match": {
+              "location": "stepDefs.cartstp.userCanNavigateToCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User able to click checkout button",
+            "match": {
+              "location": "stepDefs.cartstp.userAbleToClickCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User land to checkout-step-one page",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userLandToCheckoutStepOnePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:33:49.853Z",
+        "line": 24,
+        "name": "cancel item",
+        "description": "",
+        "id": "checkout;cancel-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User can cancel his order",
+            "match": {
+              "location": "stepDefs.checkout1Stp.userCanCancelHisOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the item information displayed on cart",
+            "match": {
+              "location": "stepDefs.cartstp.theItemInformationDisplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/checkoutStep1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21304986200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11204227400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027peek\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/inventory.feature:7)\r\n",
+              "duration": 89467300,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:36:26.330Z",
+        "line": 9,
+        "name": "Test navigation menu",
+        "description": "",
+        "id": "test-inventery-menu;test-navigation-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user should see open menu",
+            "match": {
+              "location": "stepDefs.inventorySteps.userShoulSeeOpenMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user can see menu options",
+            "match": {
+              "location": "stepDefs.inventorySteps.userCanSeeMenuOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user navigate to \"All Items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Items\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userNavigateTo(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "all prodect should be available",
+            "match": {
+              "location": "stepDefs.inventorySteps.allProdectShouldBeAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17900825700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2579889900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.198)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/inventory.feature:7)\r\n",
+              "duration": 12176734500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:40:10.831Z",
+        "line": 17,
+        "name": "Test sorting products",
+        "description": "",
+        "id": "test-inventery-menu;test-sorting-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 986100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "sort by \"Price (low to high)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (low to high)\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefs.inventorySteps.sortBy(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "the the first law price product name\"Sauce Labs Onesie\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Onesie\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefs.inventorySteps.theTheFirstLawPriceProductNameDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25609721700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4092752000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.198)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/inventory.feature:7)\r\n",
+              "duration": 12228828600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:40:43.581Z",
+        "line": 21,
+        "name": "Add item to cart",
+        "description": "",
+        "id": "test-inventery-menu;add-item-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user can navigate to \"Sauce Labs Backpackt\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpackt\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Inventery menu",
+    "description": "",
+    "id": "test-inventery-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/inventory.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41773103200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3928547200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.198)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/inventoryItem.feature:7)\r\n",
+              "duration": 12045618900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user can navigate to \"Sauce Labs Fleece Jacket\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Fleece Jacket\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:41:25.654Z",
+        "line": 14,
+        "name": "remove items",
+        "description": "",
+        "id": "in-order-to-add-to-cart;remove-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user can remove item in cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanRemoveItemInCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User can navigate back to invotory page",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanNavigateBackToInvotoryPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30195108700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on sauceDemo page",
+            "match": {
+              "location": "stepDefs.LoginStep.user_is_on_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3306770800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Logs with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefs.LoginStep.user_logs_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.198)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-1HRFS9DJ\u0027, ip: \u0027192.168.0.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\nelya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee7790ad5aba13748584b76c75e7788e\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027peek\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.InventoryPage.CheckElementIsVisible(InventoryPage.java:21)\r\n\tat stepDefs.inventorySteps.user_should_land_on_the_invontory_page(inventorySteps.java:29)\r\n\tat ✽.user should land on the invontory page(file:///C:/Users/nelya/IdeaProjects/SaucedemoTesting/src/test/resources/features/inventoryItem.feature:7)\r\n",
+              "duration": 12029987000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should land on the invontory page",
+            "match": {
+              "location": "stepDefs.inventorySteps.user_should_land_on_the_invontory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user can navigate to \"Sauce Labs Fleece Jacket\"items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Fleece Jacket\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefs.inventorySteps.userCanNavigateToItems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Item information is displayed",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.itemInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user can add item to cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanAddItemToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "one item desplayed on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.oneItemDesplayedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T02:42:23.855Z",
+        "line": 18,
+        "name": "User can add to shopping cart",
+        "description": "",
+        "id": "in-order-to-add-to-cart;user-can-add-to-shopping-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user can click on cart",
+            "match": {
+              "location": "stepDefs.inventoryItemStep.userCanClickOnCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "in order to add to cart",
+    "description": "",
+    "id": "in-order-to-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/inventoryItem.feature",
+    "tags": []
+  }
+]
